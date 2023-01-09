@@ -56,19 +56,19 @@
   text-align: left;
 }
 
-
 .App td, .App th {
   border: 1px solid;
   border-collapse: collapse;
   border-color: black;
   padding: 0.5rem;
+  hyphens: auto;
+  overflow-wrap: anywhere; 
 }
 
 .App td {
   vertical-align: top;
   line-break:strict ;
 }
-
 
 .App td p {
   margin-block-start: 0em;

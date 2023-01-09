@@ -12,12 +12,16 @@ function App() {
 
   const { thesis_categories, mark, evaluation_targets, label } = data;
 
+  const setDocumentLang = (lang) => {
+    document.documentElement.lang = lang;
+  };
+
   return (
     <div className="App">
       <header>
         <div className='selectLanguage'>
-          <img src={fi} alt='suomi' onClick={() => setData(data_fi)} />
-          <img src={en} alt='English' onClick={() => setData(data_en)} />
+          <img src={fi} alt='suomi' onClick={() => { setData(data_fi); setDocumentLang('fi') }} />
+          <img src={en} alt='English' onClick={() => { setData(data_en); setDocumentLang('en') }} />
         </div>
 
         <div className='titleBlock'>
@@ -35,7 +39,6 @@ function App() {
             <option key={i} value={i}>{t.name}</option>
           )}
         </select>
-
       </h2>
 
       <table>
