@@ -1,0 +1,194 @@
+{
+	"thesis_categories": [
+		{
+			"name": "Tutkimus",
+			"evaluation_targets": [
+				"aihe",
+				"tietoperusta",
+				"menetelmat_tutkimus",
+				"tulokset_tutkimus",
+				"raportointi",
+				"projektinhallinta"
+			]
+		},
+		{
+			"name": "Toiminnallinen",
+			"evaluation_targets": [
+				"aihe",
+				"tietoperusta",
+				"menetelmat_toiminnallinen",
+				"tulokset_toiminnallinen",
+				"raportointi",
+				"projektinhallinta"
+			]
+		},
+		{
+			"name": "Päiväkirja",
+			"evaluation_targets": [
+				"lahtotilanne",
+				"tietoperusta",
+				"menetelmat_tutkimus",
+				"tulokset_tutkimus",
+				"raportointi",
+				"projektinhallinta"
+			]
+		},
+		{
+			"name": "Portfolio",
+			"evaluation_targets": [
+				"aihe",
+				"tietoperusta",
+				"menetelmat_portfolio",
+				"tulokset_portfolio",
+				"raportointi",
+				"projektinhallinta"
+			]
+		}
+	],
+	"evaluation_targets": {
+		"aihe": {
+			"name": "Aihe, tavoite ja rajaus",
+			"criterion": {
+				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti.\nTavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
+				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti.\nJoitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
+				"3": "Aihe on alalle hyvin sopiva. Se on perusteltu ja rajattu toimeksiantajan tai alan näkökulmasta.\nTavoitteet/tutkimusongelmat/teemat on perusteltu ja määritelty, ja niiden merkitys vastuullisuuden näkökulmasta on käsitelty.",
+				"4": "Aihe on perustellusti ajankohtainen toimeksiantajalle tai alalle. Aihe on perusteltu ja rajattu organisaation tai alan näkökulmasta.\nTavoitteet/tutkimusongelmat/teemat on perusteltu ja määritelty, ja niiden konkreettinen hyöty sekä merkitys yhteiskuntavastuullisuudelle on kuvattu perustellusti lähteitä käyttämällä.",
+				"5": "Aihe on perustellusti ajankohtainen ja siinä on jotain uutta toimeksiantajalle tai alalle.\nAihe on perusteltu ja rajattu organisaation tai alan vastuullisen kehittämisen näkökulmasta.\nTavoitteet/tutkimusongelmat/teemat on perusteltu monipuolisesti ja kriittisesti."
+			}
+		},
+		"lahtotilanne": {
+			"name": "Lähtötilanne ja tavoite",
+			"criterion": {
+				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti. Tavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
+				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti. Joitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
+				"3": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty.",
+				"4": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta kattavasti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty lähteitä käyttämällä.",
+				"5": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta monipuolisesti ja kriittisesti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty monipuolisesti ja kriittisesti lähteitä käyttämällä."
+			}
+		},
+		"tietoperusta": {
+			"name": "Tietoperusta",
+			"criterion": {
+				"1": "Tietoperusta on aiheeseen nähden suppea ja koostuu kritiikittömästi valituista lähteistä.\nKäsitteet on määritelty pintapuolisesti, ja ne muodostavat sattumanvaraisen tai perustelemattoman tietoperustan.",
+				"2": "Tietoperusta koostuu osin satunnaisista lähteistä.\nTietoperustassa ja käsitemäärittelyissä on vähän lähteiden välistä keskustelua. Tietoperustalla on selkeä yhteys aiheeseen.",
+				"3": "Tietoperustassa on käytetty lähdekriittisesti alan lähteitä.\nTietoperusta on aiheen kannalta perusteltu, ja keskeiset käsitteet on määritelty. Eri lähteitä on yhdistetty loogisiksi kokonaisuuksiksi aiheeseen nähden.",
+				"4": "Tietoperustassa on käytetty monipuolisesti ja perustellusti keskeisiä alan lähteitä.\nTietoperusta tukee opinnäytetyön tavoitteita/teemoja ja keskeiset käsitteet on määritelty selkeästi. Eri lähteet käyvät keskenään luontevaa keskustelua muodostaen eheän kokonaisuuden.\nTietoperustassa on noudatettu lähdekriittisyyttä.",
+				"5": "Tietoperustassa on käytetty analyyttisesti uutta tutkimus- ja asiantuntijatietoa.\nTietoperusta ja käsitteet muodostavat aihetta tukevan, eheän, kattavan ja uusia yhteyksiä luovan kokonaisuuden. Eri lähteistä hankittua tietoa on osattu yhdistää ja osoittaa niiden välisiä suhteita.\nTietoperustassa on noudatettu lähdekriittisyyttä."
+			}
+		},
+		"menetelmat_tutkimus": {
+			"name": "Menetelmät",
+			"criterion": {
+				"1": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu erittäin suppeasti tai puutteellisesti.\nAineisto on suppea ja sen analysointi on puutteellista.",
+				"2": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu lyhyesti.\nMenetelmät sopivat osittain tutkimus-ongelman ratkaisemiseen.\nAineisto on melko suppea suhteessa tutkimusongelmaan ja analyysi on ylimalkainen.",
+				"3": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu selkeästi.\nMenetelmät sopivat tutkimusongelman ratkaisemiseen.\nAineisto on riittävä, ja se on osattu analysoida asianmukaisesti.",
+				"4": "Tutkimusmenetelmien valinnoissa, perusteluissa ja soveltamisessa on hyödynnetty menetelmäkirjallisuutta.\nTutkimuksen eteneminen on kuvattu perusteellisesti.\nAineisto on riittävän laaja ja mahdollistaa tutkimusongelman ratkaisemisen.\nAnalysointimenetelmä on kuvattu selkeästi ja sitä on sovellettu taitavasti ja tarkoituksenmukaisesti.",
+				"5": "Tutkimusmenetelmien valinnoissa, perusteluissa ja soveltamisessa on hyödynnetty menetelmäkirjallisuutta vaihtoehtoja pohtien.\nTutkimuksen eteneminen on kuvattu vaiheittain, tarkasti ja tiiviisti.\nAineisto on huolellisesti kerätty, kattava ja laadukas.\nAnalysointimenetelmä on kuvattu selkeästi ja sitä on sovellettu taitavasti, analyyttisesti ja tarkoituksenmukaisesti."
+			}
+		},
+		"menetelmat_toiminnallinen": {
+			"name": "Menetelmät",
+			"criterion": {
+				"1": "Kehittämisprojektin toteutus on kuvattu erittäin suppeasti tai puutteellisesti.",
+				"2": "Kehittämisprojekti on suunniteltu ja kuvattu lyhyesti. Kehittämisprojekti on toteutettu valittua menetelmää hyödyntäen.",
+				"3": "Kehittämisprojekti on suunniteltu, toteutettu ja kuvattu sujuvasti.\nMenetelmävalinnat on kuvattu selkeästi ja kehittämisprojektin menetelmät sopivat kehittämistehtävän ratkaisemiseen.",
+				"4": "Kehittämisprojektin suunnittelussa ja toteutuksessa on hyödynnetty lähteitä, lähdekritiikki huomioiden.\nKehittämisprojektin eteneminen on kuvattu huolellisesti.\nValitut menetelmät on perusteltu ja niitä on sovellettu kehittämisprojektissa taitavasti ja tarkoituksenmukaisesti. Projektissa on hyödynnetty toimeksiantajan /ulkopuolista palautetta.",
+				"5": "Kehittämisprojektin kaikissa vaiheissa on hyödynnetty lähteitä lähdekritiikki huomioiden. Valitut menetelmät on perusteltu lähteiden avulla.\nKehittämisprojektin vaihtoehtoisia toteutustapoja on pohdittu.\nKehittämisprojektin eteneminen on kuvattu tarkasti ja selkeästi. Projektissa on hyödynnetty monipuolisesti toimeksiantajan/ulkopuolista palautetta.\nValittuja menetelmiä on sovellettu erittäin taitavasti ja tarkoituksenmukaisesti."
+			}
+		},
+		"menetelmat_paivakirja": {
+			"name": "Menetelmät",
+			"criterion": {
+				"1": "Päivittäisiä työtehtäviä on kuvattu, mutta päiväkirjamerkinnät ovat suppeita tai puutteellisia.\nViikkoanalyyseissä ei ole juurikaan hyödynnetty lähteitä.",
+				"2": "Päivittäisiä työtehtäviä on kuvattu lyhyesti.\nViikkoanalyyseissä on hyödynnetty jonkin verran alan lähteitä.",
+				"3": "Työpäivien toteutumista on kuvattu valittujen ammatillisten tavoitteiden ja teemojen näkökulmasta.\nViikkoanalyysit ovat johdonmukaisia ja alan lähteitä on hyödynnetty hyvin.",
+				"4": "Työpäivien toteutumista on arvioitu valittujen ammatillisten tavoitteiden ja teemojen näkökulmasta, ja päivittäisistä työtehtävistä on löydetty kehittämiskohteita.\nViikkoanalyysit ovat johdonmukaisia, ja niissä on käytetty lähteitä oman osaamisen kehittämisen näkökulmasta.",
+				"5": "Työpäivien toteutumista on arvioitu hyvin suhteessa valittuihin ammatillisiin tavoitteisiin ja teemoihin. Päivittäisistä työtehtävistä on löydetty perusteltuja kehittämiskohteita.\nViikkoanalyysit ovat johdonmukaisia muodostaen tasapainoisen kokonaisuuden, ja niissä on käytetty lähteitä monipuolisesti oman osaamisen kehittämiseen."
+			}
+		},
+		"menetelmat_portfolio": {
+			"name": "Menetelmät",
+			"criterion": {
+				"1": "Portfolion toteutus on kuvattu erittäin suppeasti tai puutteellisesti. Valintoja ei ole juurikaan perusteltu.",
+				"2": "Portfolio on suunniteltu ja osittain perusteltu.\nPortfoliossa on johdonmukainen teema. Portfolion toteutus on kuvattu lyhyesti.",
+				"3": "Portfolio on suunniteltu ja siihen tehdyt valinnat on perusteltu.\nPortfolio on johdonmukainen ja toteutus on kuvattu selkeästi.",
+				"4": "Portfolio on suunniteltu hyödyntämällä tavoitteen asetantaa ja lähteitä.\nPortfolioon liittyvät valinnat on hyvin perusteltu.\nPortfolion toteutus on kuvattu taitavasti.",
+				"5": "Portfolio on suunniteltu hyödyntämällä tavoitteen asetantaa ja lähteitä punniten eri vaihtoehtoja.\nPortfolioon liittyvät valinnat on hyvin perusteltu.\nPortfolion toteutus on kuvattu kattavasti ja tarkoituksenmukaisesti."
+			}
+		},
+		"tulokset_tutkimus": {
+			"name": "Tulokset",
+			"criterion": {
+				"1": "Tutkimusongelmiin on saatu joitakin vastauksia.\nYhteys tietoperustaan on puutteellinen.",
+				"2": "Tutkimusongelmiin on saatu pääosin vastaukset.\nTulosten pohdinta ja niiden yhdistäminen tietoperustaan on vähäistä.",
+				"3": "Tulokset ovat relevantteja ja perusteltuja suhteessa tutkimus-ongelmiin.\nTuloksia on tarkasteltu suhteessa tietoperustaan.\nTulosten hyödyllisyyttä, yleistettävyyttä ja luotettavuutta on pohdittu riittävästi.",
+				"4": "Tulokset ja johtopäätökset ovat relevantteja ja perusteltuja suhteessa tutkimusongelmiin, ja niiden hyödyntämistä käytäntöön on perusteltu uskottavasti.\nKeskeisiä tuloksia on pohdittu suhteessa tietoperustaan.\nTuloksia ja niiden luotettavuutta ja yleistettävyyttä on pohdittu kriittisesti.",
+				"5": "Tulokset ja johtopäätökset ovat relevantteja ja perusteltuja suhteessa tutkimusongelmiin, ja niiden hyödyntämistä käytäntöön on perusteltu uskottavasti ja monipuolisesti.\nKeskeisiä tuloksia on pohdittu eri näkökulmista ja suhteessa tietoperustaan.\nTulosten merkitystä ja luotettavuutta on pohdittu kriittisesti ja monipuolisesti."
+			}
+		},
+		"tulokset_toiminnallinen": {
+			"name": "Tulokset",
+			"criterion": {
+				"1": "Tuotos on kuvattu puutteellisesti ja sen hyödynnettävyyttä on pohdittu vähän.\nTuotos ei saavuta asetettuja tavoitteita.",
+				"2": "Tuotos on kuvattu lyhyesti ja sen hyödynnettävyyttä on pohdittu.\nTuotos saavuttaa osittain asetetut tavoitteet.",
+				"3": "Tuotos/tuotoksen julkinen osuus on kuvattu riittävästi ja tuotoksen hyödynnettävyyttä on arvioitu suhteessa tavoitteisiin.\nTuotos voidaan ottaa käyttöön.",
+				"4": "Tuotos/tuotoksen julkinen osuus on kuvattu kattavasti ja tuotoksen hyödynnettävyyttä ja laatua on arvioitu perustellusti suhteessa tavoitteisiin, tietoperustaan ja käytäntöön.",
+				"5": "Tuotos/tuotoksen julkinen osuus on kuvattu monipuolisesti ja tuotoksen laatua ja laajempaa hyödynnettävyyttä on arvioitu uskottavasti ja kriittisesti eri näkökulmista."
+			}
+		},
+		"tulokset_paivakirja": {
+			"name": "Tulokset",
+			"criterion": {
+				"1": "Työssä on kuvattu ja arvioitu vain yksittäisiä työsuorituksia.",
+				"2": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja irrallaan ammatillisen kasvun teemoista.",
+				"3": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja suhteessa asetettuihin ammatillisen kasvun teemoihin.",
+				"4": "Työssä on kuvattu ja arvioitu monipuolisesti osaamista ja toimintatapoja suhteessa asetettuihin ammatillisen kasvun teemoihin.\nTyössä on tehty perusteltuja oman ammatillisen kehittymisen kannalta tärkeitä havaintoja.",
+				"5": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja sekä esitetään vaihtoehtoisia ratkaisuja asetettuihin ammatillisen kasvun teemoihin.\nTyö on tuottanut uusia oivalluksia tai ratkaisumalleja oman työn tai työyhteisön kehittymisen kannalta."
+			}
+		},
+		"tulokset_portfolio": {
+			"name": "Tulokset",
+			"criterion": {
+				"1": "Portfolion sisältö on kuvattu, mutta itse sisältö on suppea.",
+				"2": "Portfolion sisältö on kuvattu ja arvioitu lyhyesti.\nOsa asetetuista tavoitteista on saavutettu. ",
+				"3": "Portfolion sisältö on kuvattu ja arvioitu suhteessa tavoitteisiin.\nSisältö on monipuolinen ja teeman mukainen.\nAsetetut tavoitteet on saavutettu.",
+				"4": "Portfolion sisältö on kuvattu ja arvioitu suhteessa tavoitteisiin ja tietoperustaan.\nPortfolio kuvaa laajasti osaamista, ja osaamisen vahvuudet on tunnistettu.\nAsetetut tavoitteet on saavutettu ja työn tuloksista on hyötyä ammatilliselle kehittymiselle ja/tai alalle.",
+				"5": "Portfolion sisältö on kuvattu ja arvioitu kriittisesti monesta näkökulmasta suhteessa tavoitteisiin ja tietoperustaan.\nPortfoliolla on selkeä teema, se kuvaa laajasti osaamista, ja osaamisen vahvuudet on tunnistettu. Tuotososuudet ovat ammatillisesti haastavia.\nAsetetut tavoitteet on saavutettu, ja työstä on perustellusti hyötyä ammatilliselle kehittymiselle ja/tai alalle."
+			}
+		},
+		"raportointi": {
+			"name": "Raportointi ja kirjallinen esitys",
+			"criterion": {
+				"1": "Sisältö on jäsennelty raportointiohjeen mukaisesti, mutta lukujen sisällöissä on epäjohdonmukaisuuksia.\nTeksti on osin jäsentymätöntä ja sisältää useita kielivirheitä.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta.",
+				"2": "Sisältö on jäsennelty oikein päälukuihin.\nTeksti on pääosin asiatyylistä tekstiä, jossa on kuitenkin jonkin verran tyyli- ja oikeakielisyysvirheitä.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta.",
+				"3": "Sisältö muodostaa johdonmukaisen kokonaisuuden.\nTeksti on jäsentynyttä, sujuvaa ja melko virheetöntä asiatyyliä.\nRaportti noudattaa Haaga-Helian raportointiohjetta olennaisin osin.\nLähdemerkinnät noudattavat Haaga-Helian raportointi-ohjetta.",
+				"4": "Sisältö muodostaa johdonmukaisen ja selkeän kokonaisuuden.\nTeksti on jäsentynyttä, sujuvaa ja lähes virheetöntä asiatyyliä. Tekstiä on havainnollistettu asianmukaisin kuvin ja taulukoin.\nRaportti noudattaa Haaga-Helian raportointiohjetta erittäin hyvin.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta.",
+				"5": "Sisältö muodostaa johdonmukaisen, selkeän ja tasapainoisen kokonaisuuden.\nTeksti on jäsentynyttä, analyyttista ja lähes virheetöntä asiatyyliä. Teksti osoittaa kriittistä ajattelua ja vuoropuhelua lähteiden kanssa. Tekstiä on havainnollistettu asianmukaisin kuvin ja taulukoin.\nRaportti noudattaa Haaga-Helian raportointiohjetta kiitettävästi.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta."
+			}
+		},
+		"projektinhallinta": {
+			"name": "Aihe, tavoite ja rajaus",
+			"criterion": {
+				"1": "Opinnäytetyöprojekti on vaatinut erittäin paljon ohjausta, tai ohjausta ja palautetta ei ole hyödynnetty.\nProjektin suunnittelu on ollut ylimalkaista.\nTyön valmistuminen on viivästynyt suunnitellusta aikataulusta ilman perusteltua syytä.",
+				"2": "Opinnäytetyöprojekti on vaatinut paljon ohjausta, tai ohjausta ja palautetta on hyödynnetty vähäisesti.\nProjektin suunnittelussa on ollut jonkin verran puutteita. Työn valmistuminen on viivästynyt suunnitellusta aikataulusta jonkin verran ilman perusteltua syytä.\nOpinnäytetyöprojektin toteutusta, omaa toimintaa ja oppimista on pohdittu.",
+				"3": "Opinnäytetyöprojektissa on työskennelty sujuvasti ohjausta ja palautetta hyödyntäen.\nTyö on valmistunut lähes suunnitellussa aikataulussa, tai mahdolliset muutokset aikatauluun on tehty hallitusti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu realistisesti.",
+				"4": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely kaikkien projektiin osallistuvien kanssa on ollut rakentavaa.\nTyö on valmistunut realistisesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu rakentavasti.",
+				"5": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti, itseohjautuvasti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely ja vuoro-vaikutus kaikkien projektiin osallistuvien kanssa on ollut luontevaa ja ammattimaista.\nTyö on valmistunut realisti-sesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti ja ennakoivasti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu monipuolisesti ja kriittisesti."
+			}
+		}
+	},
+	"label": {
+		"evaluation_target": "Arviointikohde",
+		"grade": "Arvosana",
+		"title": "AMK-opinnäytetyön arviointikriteerit",
+		"subtitle": "AMK-tutkinnon opinnäytetyön arviointikriteerit Haaga-Helia ammattikorkeakoulussa 1.8.2022 ja sen jälkeen aloitetuille opinnäytetöille",
+		"thesis_category": "Opinnäytetyön tyyppi"
+	},
+	"mark": {
+		"1": "Välttävä",
+		"2": "Tyydyttävä",
+		"3": "Hyvä",
+		"4": "Erittäin hyvä",
+		"5": "Kiitettävä"
+	}
+}
