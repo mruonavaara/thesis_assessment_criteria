@@ -1,50 +1,18 @@
 {
-	"thesis_categories": [
-		{
-			"name": "Tutkimus",
-			"evaluation_targets": [
-				"aihe",
-				"tietoperusta",
-				"menetelmat_tutkimus",
-				"tulokset_tutkimus",
-				"raportointi",
-				"projektinhallinta"
-			]
-		},
-		{
-			"name": "Toiminnallinen",
-			"evaluation_targets": [
-				"aihe",
-				"tietoperusta",
-				"menetelmat_toiminnallinen",
-				"tulokset_toiminnallinen",
-				"raportointi",
-				"projektinhallinta"
-			]
-		},
-		{
-			"name": "Päiväkirja",
-			"evaluation_targets": [
-				"lahtotilanne",
-				"tietoperusta",
-				"menetelmat_paivakirja",
-				"tulokset_paivakirja",
-				"raportointi",
-				"projektinhallinta"
-			]
-		},
-		{
-			"name": "Portfolio",
-			"evaluation_targets": [
-				"aihe",
-				"tietoperusta",
-				"menetelmat_portfolio",
-				"tulokset_portfolio",
-				"raportointi",
-				"projektinhallinta"
-			]
-		}
-	],
+	"lang": "fi",
+	"category_label": {
+		"tutkimus": "Tutkimus",
+		"toiminnallinen": "Toiminnallinen",
+		"paivakirja": "Päiväkirja",
+		"portfolio": "Portfolio"
+	},
+	"label": {
+		"evaluation_target": "Arviointikohde",
+		"grade": "Arvosana",
+		"title": "AMK-opinnäytetyön arviointikriteerit",
+		"subtitle": "AMK-tutkinnon opinnäytetyön arviointikriteerit Haaga-Helia ammattikorkeakoulussa 1.8.2022 ja sen jälkeen aloitetuille opinnäytetöille",
+		"thesis_category": "Opinnäytetyön tyyppi"
+	},
 	"evaluation_targets": {
 		"aihe": {
 			"name": "Aihe, tavoite ja rajaus",
@@ -176,14 +144,6 @@
 				"5": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti, itseohjautuvasti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely ja vuoro-vaikutus kaikkien projektiin osallistuvien kanssa on ollut luontevaa ja ammattimaista.\nTyö on valmistunut realisti-sesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti ja ennakoivasti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu monipuolisesti ja kriittisesti."
 			}
 		}
-	},
-	"lang": "fi",
-	"label": {
-		"evaluation_target": "Arviointikohde",
-		"grade": "Arvosana",
-		"title": "AMK-opinnäytetyön arviointikriteerit",
-		"subtitle": "AMK-tutkinnon opinnäytetyön arviointikriteerit Haaga-Helia ammattikorkeakoulussa 1.8.2022 ja sen jälkeen aloitetuille opinnäytetöille",
-		"thesis_category": "Opinnäytetyön tyyppi"
 	},
 	"mark": {
 		"1": "Välttävä",

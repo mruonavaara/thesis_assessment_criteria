@@ -1,14 +1,20 @@
 import '../App.css';
 import { useEffect, useState } from 'react';
-
 import SelectLanguage from './SelectLanguage';
+
+// common thesis category definitions
+import thesis_categories from "../resources/categories.json";
+
+const categoryKeys = Object.keys(thesis_categories);
+const categoryEvalTargets = Object.values(thesis_categories);
 
 function AssessmentCriteria(props) {
   const { data } = props;
-  const [category, setCategory] = useState(0);
-  const { thesis_categories, mark, evaluation_targets, label } = data;
+  const { category_label, mark, evaluation_targets, label } = data;
 
-  const formatCellContent = raw =>
+  const [category, setCategory] = useState(0);
+
+  const FormattedCellContent = raw =>
     <>{
       raw.split('\n').map(str => // add <p> tags around linebreak separated paragraphs
         <p key={str}>
@@ -37,8 +43,8 @@ function AssessmentCriteria(props) {
       <h2>
         {label.thesis_category}:
         <select className='selectType' name="type" onChange={event => setCategory(event.target.value)} value={category}>
-          {thesis_categories.map((t, i) =>
-            <option key={i} value={i}>{t.name}</option>
+          {categoryKeys.map((cat, i) =>
+            <option key={i} value={i}>{category_label[cat]}</option>
           )}
         </select>
       </h2>
@@ -58,11 +64,11 @@ function AssessmentCriteria(props) {
           </tr>
         </thead>
         <tbody>
-          {thesis_categories[category].evaluation_targets.map(target =>
+          {categoryEvalTargets[category].map(target =>
             <tr key={target}>
-              <th>{evaluation_targets[target] ? formatCellContent(evaluation_targets[target].name) : 'Unknown evaluation target'}</th>
+              <th>{evaluation_targets[target] ? FormattedCellContent(evaluation_targets[target].name) : 'Unknown evaluation target'}</th>
               {Object.values(evaluation_targets[target] ? evaluation_targets[target].criterion : ['missing']).map((c, i) =>
-                <td key={i}>{formatCellContent(c)}</td>
+                <td key={i}>{FormattedCellContent(c)}</td>
               )}
             </tr>
           )}

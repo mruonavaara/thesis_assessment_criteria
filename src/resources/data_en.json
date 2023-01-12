@@ -1,64 +1,17 @@
 {
-	"thesis_categories": [
-		{
-			"name": "Research",
-			"evaluation_targets": [
-				"aihe",
-				"tietoperusta",
-				"menetelmat_tutkimus",
-				"tulokset_tutkimus",
-				"raportointi",
-				"projektinhallinta"
-			]
-		},
-		{
-			"name": "Product-based",
-			"evaluation_targets": [
-				"aihe",
-				"tietoperusta",
-				"menetelmat_toiminnallinen",
-				"tulokset_toiminnallinen",
-				"raportointi",
-				"projektinhallinta"
-			]
-		},
-		{
-			"name": "Diary-based",
-			"evaluation_targets": [
-				"lahtotilanne",
-				"tietoperusta",
-				"menetelmat_paivakirja",
-				"tulokset_paivakirja",
-				"raportointi",
-				"projektinhallinta"
-			]
-		},
-		{
-			"name": "Portfolio",
-			"evaluation_targets": [
-				"aihe",
-				"tietoperusta",
-				"menetelmat_portfolio",
-				"tulokset_portfolio",
-				"raportointi",
-				"projektinhallinta"
-			]
-		}
-	],
 	"lang": "en",
+	"category_label": {
+		"tutkimus": "Research",
+		"toiminnallinen": "Product-based",
+		"paivakirja": "Diary-based",
+		"portfolio": "Portfolio"
+	},
 	"label": {
 		"evaluation_target": "Assessment component",
 		"grade": "Grade",
 		"title": "UAS degree thesis assessment criteria",
 		"subtitle": "The UAS degree thesis assessment criteria at Haaga-Helia University of Applied Sciences for theses that has been started August 1, 2022 onwards",
 		"thesis_category": "Thesis category"
-	},
-	"mark": {
-		"1": "Fair",
-		"2": "Satisfactory",
-		"3": "Good",
-		"4": "Very good",
-		"5": "Excellent"
 	},
 	"evaluation_targets": {
 		"aihe": {
@@ -191,5 +144,12 @@
 				"5": "The thesis project has been carried out as planned, responsibly and in a self-guiding manner, taking advantage of guidance and feedback.\nCooperation and interaction with all parties involved in the project have been easy and professional.\nThe thesis has been completed in accordance with a realistically planned schedule. Possible changes in the project have been implemented in a controlled and proactive manner.\nThe implementation of the thesis project and ethical research viewpoints, one’s own activities and learning have been critically discussed from various perspectives."
 			}
 		}
+	},
+	"mark": {
+		"1": "Fair",
+		"2": "Satisfactory",
+		"3": "Good",
+		"4": "Very good",
+		"5": "Excellent"
 	}
 }

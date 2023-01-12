@@ -1,0 +1,34 @@
+{
+    "tutkimus": [
+      "aihe",
+      "tietoperusta",
+      "menetelmat_tutkimus",
+      "tulokset_tutkimus",
+      "raportointi",
+      "projektinhallinta"
+    ],
+    "toiminnallinen": [
+      "aihe",
+      "tietoperusta",
+      "menetelmat_toiminnallinen",
+      "tulokset_toiminnallinen",
+      "raportointi",
+      "projektinhallinta"
+    ],
+    "paivakirja": [
+      "lahtotilanne",
+      "tietoperusta",
+      "menetelmat_paivakirja",
+      "tulokset_paivakirja",
+      "raportointi",
+      "projektinhallinta"
+    ],
+    "portfolio": [
+      "aihe",
+      "tietoperusta",
+      "menetelmat_portfolio",
+      "tulokset_portfolio",
+      "raportointi",
+      "projektinhallinta"
+    ]
+  }
