@@ -16,6 +16,18 @@ function App() {
     document.documentElement.lang = lang;
   };
 
+  const formatCellContent = raw =>
+    <>{
+      raw.split('\n').map(str => // add <p> tags around linebreak separated paragraphs
+        <p key={str}>
+          {str.split('/').map(   // add <wbr> hints after slashes
+            (s, i) =>
+              <>
+                {i ? '/' : ""}<wbr />{s}
+              </>)}
+        </p>)
+    }</>;
+
   return (
     <div className="App">
       <header>
@@ -58,9 +70,9 @@ function App() {
         <tbody>
           {thesis_categories[category].evaluation_targets.map(target =>
             <tr key={target}>
-              <th>{evaluation_targets[target] ? evaluation_targets[target].name : 'Unknown evaluation target'}</th>
+              <th>{evaluation_targets[target] ? formatCellContent(evaluation_targets[target].name) : 'Unknown evaluation target'}</th>
               {Object.values(evaluation_targets[target] ? evaluation_targets[target].criterion : ['missing']).map((c, i) =>
-                <td key={i}>{c.split('\n').map(str => <p key={str}>{str.split('/').map((s, i) => <>{i ? '/' : ""}<wbr />{s}</>)}</p>)}</td>
+                <td key={i}>{formatCellContent(c)}</td>
               )}
             </tr>
           )}
@@ -71,5 +83,3 @@ function App() {
 }
 
 export default App;
-
-// <td style={{ whiteSpace: "pre-wrap" }}>{c}</td>

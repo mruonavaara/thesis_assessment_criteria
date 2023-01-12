@@ -27,8 +27,8 @@
 			"evaluation_targets": [
 				"lahtotilanne",
 				"tietoperusta",
-				"menetelmat_tutkimus",
-				"tulokset_tutkimus",
+				"menetelmat_paivakirja",
+				"tulokset_paivakirja",
 				"raportointi",
 				"projektinhallinta"
 			]
@@ -61,133 +61,133 @@
 	},
 	"evaluation_targets": {
 		"aihe": {
-			"name": "Aihe, tavoite ja rajaus",
+			"name": "Topic, objective and demarcation",
 			"criterion": {
-				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti.\nTavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
-				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti.\nJoitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
-				"3": "Aihe on alalle hyvin sopiva. Se on perusteltu ja rajattu toimeksiantajan tai alan näkökulmasta.\nTavoitteet/tutkimusongelmat/teemat on perusteltu ja määritelty, ja niiden merkitys vastuullisuuden näkökulmasta on käsitelty.",
-				"4": "Aihe on perustellusti ajankohtainen toimeksiantajalle tai alalle. Aihe on perusteltu ja rajattu organisaation tai alan näkökulmasta.\nTavoitteet/tutkimusongelmat/teemat on perusteltu ja määritelty, ja niiden konkreettinen hyöty sekä merkitys yhteiskuntavastuullisuudelle on kuvattu perustellusti lähteitä käyttämällä.",
-				"5": "Aihe on perustellusti ajankohtainen ja siinä on jotain uutta toimeksiantajalle tai alalle.\nAihe on perusteltu ja rajattu organisaation tai alan vastuullisen kehittämisen näkökulmasta.\nTavoitteet/tutkimusongelmat/teemat on perusteltu monipuolisesti ja kriittisesti."
+				"1": "The topic is ordinary, and it has been superficially justified and vaguely defined.\nObjectives/research question and investigative questions/themes undefined.",
+				"2": "The topic is quite ordinary, and it has been weakly justified and narrowly defined.\nSome concrete objectives/ research question and investigative questions/themes have been set.",
+				"3": "The topic is well suited for the field. It has been justified and defined from the point of view of the commissioning organization or the field.\nThe objectives/research question and investigative questions/themes have been justified and defined, and their significance from the perspective of sustainability has been covered.",
+				"4": "The topic is current for the commissioning organisation or the field. It has been justified and defined from the point of view of the commissioning organization or the field.\nThe objectives/research question and investigative questions/themes have been justified and defined, and their concrete benefit and significance for sustainability have been discussed by using sources.",
+				"5": "The topic is current and it provides some new information for the commissioning organization or the field. The topic has been justified and defined from the perspective of sustainability of the commissioning organization or the field.\nThe objectives/research question and investigative questions/themes have been justified from various perspectives and with critique."
 			}
 		},
 		"lahtotilanne": {
-			"name": "Lähtötilanne ja tavoite",
+			"name": "Starting point and objective",
 			"criterion": {
-				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti. Tavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
-				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti. Joitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
-				"3": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty.",
-				"4": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta kattavasti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty lähteitä käyttämällä.",
-				"5": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta monipuolisesti ja kriittisesti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty monipuolisesti ja kriittisesti lähteitä käyttämällä."
+				"1": "The starting point has been superficially and vaguely described.\nSetting the objectives and themes of professional development remains obscure.",
+				"2": "The starting point has been described and analysed narrowly.\nSome objectives and themes of professional development have been set.",
+				"3": "The starting point has been described and analysed based on one’s own work, know-how and sustainability.\nObjectives and themes of professional development have been defined and justified. ",
+				"4": "The starting point has been comprehensively described and analysed based on one’s one work, know-how and sustainability.\nObjectives and themes of professional development have been defined and justified by using sources.  ",
+				"5": "The starting point has been described from various perspectives and analysed with critique based on one’s own work, know-how and sustainability.\nObjectives and themes of professional development have been defined from various perspectives and justified with critique by using sources."
 			}
 		},
 		"tietoperusta": {
-			"name": "Tietoperusta",
+			"name": "Theoretical framework",
 			"criterion": {
-				"1": "Tietoperusta on aiheeseen nähden suppea ja koostuu kritiikittömästi valituista lähteistä.\nKäsitteet on määritelty pintapuolisesti, ja ne muodostavat sattumanvaraisen tai perustelemattoman tietoperustan.",
-				"2": "Tietoperusta koostuu osin satunnaisista lähteistä.\nTietoperustassa ja käsitemäärittelyissä on vähän lähteiden välistä keskustelua. Tietoperustalla on selkeä yhteys aiheeseen.",
-				"3": "Tietoperustassa on käytetty lähdekriittisesti alan lähteitä.\nTietoperusta on aiheen kannalta perusteltu, ja keskeiset käsitteet on määritelty. Eri lähteitä on yhdistetty loogisiksi kokonaisuuksiksi aiheeseen nähden.",
-				"4": "Tietoperustassa on käytetty monipuolisesti ja perustellusti keskeisiä alan lähteitä.\nTietoperusta tukee opinnäytetyön tavoitteita/teemoja ja keskeiset käsitteet on määritelty selkeästi. Eri lähteet käyvät keskenään luontevaa keskustelua muodostaen eheän kokonaisuuden.\nTietoperustassa on noudatettu lähdekriittisyyttä.",
-				"5": "Tietoperustassa on käytetty analyyttisesti uutta tutkimus- ja asiantuntijatietoa.\nTietoperusta ja käsitteet muodostavat aihetta tukevan, eheän, kattavan ja uusia yhteyksiä luovan kokonaisuuden. Eri lähteistä hankittua tietoa on osattu yhdistää ja osoittaa niiden välisiä suhteita.\nTietoperustassa on noudatettu lähdekriittisyyttä."
+				"1": "With regard to the theoretical framework, the topic is narrow and consists of sources chosen without critique.\nConcepts have been defined superficially and they form a theoretical framework that is haphazard or not justified.",
+				"2": "The theoretical framework partially consists of random sources.\nThere is little dialogue between the sources in the theoretical framework and concept definitions. The theoretical framework has a clear connection to the topic.",
+				"3": "The sources in the field have been used with critique in the theoretical framework.\nThe theoretical framework is justified with consideration to the topic, and the main concepts have been defined. Separate sources have been combined to form logical entities considering the topic. ",
+				"4": "Multiple central sources in the field have been used and justified in the theoretical framework.\nThe theoretical framework supports the research question and investigative questions/themes of the thesis and the main concepts have been clearly defined. Separate sources carry out a natural dialogue, forming a coherent whole.\nSources have been critiqued in the theoretical framework.",
+				"5": "Recent research and specialist knowledge has been used analytically in the theoretical framework.\nThe theoretical framework and concepts form a coherent, comprehensive entity supporting the topic and creating new connections. Information acquired from different sources has been successfully combined, and the relations between pieces of information have been demonstrated.\nSources have been critiqued in the theoretical framework from various perspectives."
 			}
 		},
 		"menetelmat_tutkimus": {
-			"name": "Menetelmät",
+			"name": "Methods\n(Research)",
 			"criterion": {
-				"1": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu erittäin suppeasti tai puutteellisesti.\nAineisto on suppea ja sen analysointi on puutteellista.",
-				"2": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu lyhyesti.\nMenetelmät sopivat osittain tutkimus-ongelman ratkaisemiseen.\nAineisto on melko suppea suhteessa tutkimusongelmaan ja analyysi on ylimalkainen.",
-				"3": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu selkeästi.\nMenetelmät sopivat tutkimusongelman ratkaisemiseen.\nAineisto on riittävä, ja se on osattu analysoida asianmukaisesti.",
-				"4": "Tutkimusmenetelmien valinnoissa, perusteluissa ja soveltamisessa on hyödynnetty menetelmäkirjallisuutta.\nTutkimuksen eteneminen on kuvattu perusteellisesti.\nAineisto on riittävän laaja ja mahdollistaa tutkimusongelman ratkaisemisen.\nAnalysointimenetelmä on kuvattu selkeästi ja sitä on sovellettu taitavasti ja tarkoituksenmukaisesti.",
-				"5": "Tutkimusmenetelmien valinnoissa, perusteluissa ja soveltamisessa on hyödynnetty menetelmäkirjallisuutta vaihtoehtoja pohtien.\nTutkimuksen eteneminen on kuvattu vaiheittain, tarkasti ja tiiviisti.\nAineisto on huolellisesti kerätty, kattava ja laadukas.\nAnalysointimenetelmä on kuvattu selkeästi ja sitä on sovellettu taitavasti, analyyttisesti ja tarkoituksenmukaisesti."
+				"1": "Selection of the research methods and the progression of the thesis have been very briefly or inadequately described.\nData is limited and its analysis is insufficient.",
+				"2": "Selection of the research methods and the progression of the thesis have been briefly described.\nThe methods are partly suitable for solving the research question.\nData is relatively limited in comparison to the research question and its analysis is superficial.",
+				"3": "Selection of the research methods and the progression of the thesis have been clearly described.\nThe methods are suitable for solving the research question.\nThe data is adequate and it has been correctly analysed.",
+				"4": "Literature on methodology has been used in selecting, justifying and applying the research methods.\nThe progression of the study has been thoroughly described.\nThe data is sufficiently extensive and enables solving the research question.\nThe method of analysis has been clearly described, and it has been competently and correctly applied.",
+				"5": "Literature on methodology has been used in selecting, justifying and applying the research methods, with consideration of different options.\nThe progression of the study has been described in phases, clearly and concisely.\nThe data has been collected carefully, and it is extensive and of high quality.\nThe method of analysis has been clearly described, and it has been competently, analytically and correctly applied."
 			}
 		},
 		"menetelmat_toiminnallinen": {
-			"name": "Menetelmät",
+			"name": "Methods\n(Product-based)",
 			"criterion": {
-				"1": "Kehittämisprojektin toteutus on kuvattu erittäin suppeasti tai puutteellisesti.",
-				"2": "Kehittämisprojekti on suunniteltu ja kuvattu lyhyesti. Kehittämisprojekti on toteutettu valittua menetelmää hyödyntäen.",
-				"3": "Kehittämisprojekti on suunniteltu, toteutettu ja kuvattu sujuvasti.\nMenetelmävalinnat on kuvattu selkeästi ja kehittämisprojektin menetelmät sopivat kehittämistehtävän ratkaisemiseen.",
-				"4": "Kehittämisprojektin suunnittelussa ja toteutuksessa on hyödynnetty lähteitä, lähdekritiikki huomioiden.\nKehittämisprojektin eteneminen on kuvattu huolellisesti.\nValitut menetelmät on perusteltu ja niitä on sovellettu kehittämisprojektissa taitavasti ja tarkoituksenmukaisesti. Projektissa on hyödynnetty toimeksiantajan /ulkopuolista palautetta.",
-				"5": "Kehittämisprojektin kaikissa vaiheissa on hyödynnetty lähteitä lähdekritiikki huomioiden. Valitut menetelmät on perusteltu lähteiden avulla.\nKehittämisprojektin vaihtoehtoisia toteutustapoja on pohdittu.\nKehittämisprojektin eteneminen on kuvattu tarkasti ja selkeästi. Projektissa on hyödynnetty monipuolisesti toimeksiantajan/ulkopuolista palautetta.\nValittuja menetelmiä on sovellettu erittäin taitavasti ja tarkoituksenmukaisesti."
+				"1": "The implementation of the development project has been described very briefly and insufficiently.",
+				"2": "The development project has been planned and described briefly. The development project has been carried out, taking advantage of the selected method.",
+				"3": "The development project has been planned, implemented and described fluently.\nThe method choices have been described clearly and the methods of the development project are suitable for solving the development task.",
+				"4": "Sources have been used with critique in planning and implementing the development project.\nThe progression of the development project has been carefully described.\nThe selected methods have been justified and they have been applied in the development project skilfully and appropriately. Feedback from the commissioning organisation/external feedback has been utilised in the project.",
+				"5": "In all the phases of the development project, sources have been used with critique. The methods chosen have been justified with the help of the sources.\nAlternative ways of implementing the development project have been considered.\nThe progression of the development project has been described in detail and clearly. Feedback from the commissioning organisation/external feedback has been utilized from various perspectives in the project.\nThe methods chosen have been applied appropriately and with great skill."
 			}
 		},
 		"menetelmat_paivakirja": {
-			"name": "Menetelmät",
+			"name": "Methods\n(Diary-based)",
 			"criterion": {
-				"1": "Päivittäisiä työtehtäviä on kuvattu, mutta päiväkirjamerkinnät ovat suppeita tai puutteellisia.\nViikkoanalyyseissä ei ole juurikaan hyödynnetty lähteitä.",
-				"2": "Päivittäisiä työtehtäviä on kuvattu lyhyesti.\nViikkoanalyyseissä on hyödynnetty jonkin verran alan lähteitä.",
-				"3": "Työpäivien toteutumista on kuvattu valittujen ammatillisten tavoitteiden ja teemojen näkökulmasta.\nViikkoanalyysit ovat johdonmukaisia ja alan lähteitä on hyödynnetty hyvin.",
-				"4": "Työpäivien toteutumista on arvioitu valittujen ammatillisten tavoitteiden ja teemojen näkökulmasta, ja päivittäisistä työtehtävistä on löydetty kehittämiskohteita.\nViikkoanalyysit ovat johdonmukaisia, ja niissä on käytetty lähteitä oman osaamisen kehittämisen näkökulmasta.",
-				"5": "Työpäivien toteutumista on arvioitu hyvin suhteessa valittuihin ammatillisiin tavoitteisiin ja teemoihin. Päivittäisistä työtehtävistä on löydetty perusteltuja kehittämiskohteita.\nViikkoanalyysit ovat johdonmukaisia muodostaen tasapainoisen kokonaisuuden, ja niissä on käytetty lähteitä monipuolisesti oman osaamisen kehittämiseen."
+				"1": "Daily duties have been described but the diary entries are brief or insufficient.\nSources have not been utilized in the weekly analyses.",
+				"2": "Daily duties have been briefly described.\nThe sources of the field have been used to some extent in the weekly analyses.",
+				"3": "Daily duties have been described in terms of professional objectives and selected themes.\nThe weekly analyses are logical and the sources of the field have been used well.",
+				"4": "Daily duties have been described in terms of professional objectives and selected themes, and development areas have been identified in the daily duties.\nThe weekly analyses are logical, and sources have been used from the perspective of developing one’s own know-how.",
+				"5": "Daily duties have been evaluated well in relation to the professional objectives and selected themes. Justified development areas have been identified in the daily duties.\nThe weekly analyses are logical, forming a balanced entity, and various sources have been used to develop one’s know-how."
 			}
 		},
 		"menetelmat_portfolio": {
-			"name": "Menetelmät",
+			"name": "Methods\n(Portfolio)",
 			"criterion": {
-				"1": "Portfolion toteutus on kuvattu erittäin suppeasti tai puutteellisesti. Valintoja ei ole juurikaan perusteltu.",
-				"2": "Portfolio on suunniteltu ja osittain perusteltu.\nPortfoliossa on johdonmukainen teema. Portfolion toteutus on kuvattu lyhyesti.",
-				"3": "Portfolio on suunniteltu ja siihen tehdyt valinnat on perusteltu.\nPortfolio on johdonmukainen ja toteutus on kuvattu selkeästi.",
-				"4": "Portfolio on suunniteltu hyödyntämällä tavoitteen asetantaa ja lähteitä.\nPortfolioon liittyvät valinnat on hyvin perusteltu.\nPortfolion toteutus on kuvattu taitavasti.",
-				"5": "Portfolio on suunniteltu hyödyntämällä tavoitteen asetantaa ja lähteitä punniten eri vaihtoehtoja.\nPortfolioon liittyvät valinnat on hyvin perusteltu.\nPortfolion toteutus on kuvattu kattavasti ja tarkoituksenmukaisesti."
+				"1": "The execution of the portfolio has been very briefly or insufficiently described. The choices made have not been sufficiently justified.",
+				"2": "The portfolio has been planned and partly justified.\nThe portfolio has a coherent theme. The execution of the portfolio has been briefly described. ",
+				"3": "The portfolio has been planned and the choices made for it have been justified.\nThe portfolio is coherent and the execution has been clearly described.",
+				"4": "The portfolio has been planned using sources and setting objective(s).\nThe choices related to the portfolio have been justified well.\nThe execution of the portfolio has been skilfully described.",
+				"5": "The portfolio has been planned using sources and setting objective(s), considering alternatives.\nThe choices related to the portfolio have been justified well.\nThe execution of the portfolio has been comprehensively and appropriately described."
 			}
 		},
 		"tulokset_tutkimus": {
-			"name": "Tulokset",
+			"name": "Results\n(Research)",
 			"criterion": {
-				"1": "Tutkimusongelmiin on saatu joitakin vastauksia.\nYhteys tietoperustaan on puutteellinen.",
-				"2": "Tutkimusongelmiin on saatu pääosin vastaukset.\nTulosten pohdinta ja niiden yhdistäminen tietoperustaan on vähäistä.",
-				"3": "Tulokset ovat relevantteja ja perusteltuja suhteessa tutkimus-ongelmiin.\nTuloksia on tarkasteltu suhteessa tietoperustaan.\nTulosten hyödyllisyyttä, yleistettävyyttä ja luotettavuutta on pohdittu riittävästi.",
-				"4": "Tulokset ja johtopäätökset ovat relevantteja ja perusteltuja suhteessa tutkimusongelmiin, ja niiden hyödyntämistä käytäntöön on perusteltu uskottavasti.\nKeskeisiä tuloksia on pohdittu suhteessa tietoperustaan.\nTuloksia ja niiden luotettavuutta ja yleistettävyyttä on pohdittu kriittisesti.",
-				"5": "Tulokset ja johtopäätökset ovat relevantteja ja perusteltuja suhteessa tutkimusongelmiin, ja niiden hyödyntämistä käytäntöön on perusteltu uskottavasti ja monipuolisesti.\nKeskeisiä tuloksia on pohdittu eri näkökulmista ja suhteessa tietoperustaan.\nTulosten merkitystä ja luotettavuutta on pohdittu kriittisesti ja monipuolisesti."
+				"1": "Some answers have been found to the research question.\nThe connection to the theoretical framework is insufficient.",
+				"2": "The research question/ investigative questions have mainly been answered.\nThe discussion of the results and their connection to the theoretical framework is weak.",
+				"3": "The results are relevant and justified in relation to the research question/investigative questions.\nThe results have been examined in relation to the theoretical framework.\nThe usefulness, general applicability and reliability of the results have been sufficiently discussed.",
+				"4": "The results and conclusions are relevant and justified in relation to the research question/investigative questions, and their application in practice has been credibly justified.\nThe key results have been reflected upon in relation to the theoretical framework.\nThe results and their reliability and general applicability have been discussed with critique.",
+				"5": "The results and conclusions are relevant and justified in relation to the research question/investigative questions, and their application in practice has been credibly and justified from various perspectives.\nThe key results have been reflected upon in relation to the theoretical framework and from different angles.\nThe reliability and relevance of the results have been discussed with critique from various perspectives. "
 			}
 		},
 		"tulokset_toiminnallinen": {
-			"name": "Tulokset",
+			"name": "Results\n(Product-based)",
 			"criterion": {
-				"1": "Tuotos on kuvattu puutteellisesti ja sen hyödynnettävyyttä on pohdittu vähän.\nTuotos ei saavuta asetettuja tavoitteita.",
-				"2": "Tuotos on kuvattu lyhyesti ja sen hyödynnettävyyttä on pohdittu.\nTuotos saavuttaa osittain asetetut tavoitteet.",
-				"3": "Tuotos/tuotoksen julkinen osuus on kuvattu riittävästi ja tuotoksen hyödynnettävyyttä on arvioitu suhteessa tavoitteisiin.\nTuotos voidaan ottaa käyttöön.",
-				"4": "Tuotos/tuotoksen julkinen osuus on kuvattu kattavasti ja tuotoksen hyödynnettävyyttä ja laatua on arvioitu perustellusti suhteessa tavoitteisiin, tietoperustaan ja käytäntöön.",
-				"5": "Tuotos/tuotoksen julkinen osuus on kuvattu monipuolisesti ja tuotoksen laatua ja laajempaa hyödynnettävyyttä on arvioitu uskottavasti ja kriittisesti eri näkökulmista."
+				"1": "The product has been inadequately described and its usefulness has been minimally discussed.\nThe product does not reach the set goals.",
+				"2": "The product has been briefly described and its usefulness has been discussed.\nThe product partially reaches the set goals.",
+				"3": "The product/the public part of the product has been adequately described and its usefulness has been evaluated in relation to the objectives.\nThe product can be adopted into use.",
+				"4": "The product/the public part of the product has been comprehensively described, and its usefulness and quality have been justified in relation to the objectives, theoretical framework and practice.",
+				"5": "The product/the public part of the product has been described from various perspectives, and its quality and wider applicability have been evaluated credibly and critically from different angles."
 			}
 		},
 		"tulokset_paivakirja": {
-			"name": "Tulokset",
+			"name": "Results\n(Diary-based)",
 			"criterion": {
-				"1": "Työssä on kuvattu ja arvioitu vain yksittäisiä työsuorituksia.",
-				"2": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja irrallaan ammatillisen kasvun teemoista.",
-				"3": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja suhteessa asetettuihin ammatillisen kasvun teemoihin.",
-				"4": "Työssä on kuvattu ja arvioitu monipuolisesti osaamista ja toimintatapoja suhteessa asetettuihin ammatillisen kasvun teemoihin.\nTyössä on tehty perusteltuja oman ammatillisen kehittymisen kannalta tärkeitä havaintoja.",
-				"5": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja sekä esitetään vaihtoehtoisia ratkaisuja asetettuihin ammatillisen kasvun teemoihin.\nTyö on tuottanut uusia oivalluksia tai ratkaisumalleja oman työn tai työyhteisön kehittymisen kannalta."
+				"1": "Only individual work tasks have been described and evaluated in the diary.",
+				"2": "In the diary, know-how and work methods have been described and evaluated separately from the themes of professional growth.",
+				"3": "In the diary, know-how and work methods have been described and evaluated in relation to the selected themes of professional growth.",
+				"4": "In the diary, know-how and work methods have been described and evaluated from various perspectives in relation to the selected themes of professional growth.\nJustified observations important for one’s own professional development have been made in the diary.",
+				"5": "In the diary, know-how and work methods have been described and evaluated, and alternative solutions are presented for the selected themes of professional growth.\nThe diary has produced new ideas or approaches from a development perspective of one’s own work or work community."
 			}
 		},
 		"tulokset_portfolio": {
-			"name": "Tulokset",
+			"name": "Results\n(Portfolio)",
 			"criterion": {
-				"1": "Portfolion sisältö on kuvattu, mutta itse sisältö on suppea.",
-				"2": "Portfolion sisältö on kuvattu ja arvioitu lyhyesti.\nOsa asetetuista tavoitteista on saavutettu. ",
-				"3": "Portfolion sisältö on kuvattu ja arvioitu suhteessa tavoitteisiin.\nSisältö on monipuolinen ja teeman mukainen.\nAsetetut tavoitteet on saavutettu.",
-				"4": "Portfolion sisältö on kuvattu ja arvioitu suhteessa tavoitteisiin ja tietoperustaan.\nPortfolio kuvaa laajasti osaamista, ja osaamisen vahvuudet on tunnistettu.\nAsetetut tavoitteet on saavutettu ja työn tuloksista on hyötyä ammatilliselle kehittymiselle ja/tai alalle.",
-				"5": "Portfolion sisältö on kuvattu ja arvioitu kriittisesti monesta näkökulmasta suhteessa tavoitteisiin ja tietoperustaan.\nPortfoliolla on selkeä teema, se kuvaa laajasti osaamista, ja osaamisen vahvuudet on tunnistettu. Tuotososuudet ovat ammatillisesti haastavia.\nAsetetut tavoitteet on saavutettu, ja työstä on perustellusti hyötyä ammatilliselle kehittymiselle ja/tai alalle."
+				"1": "The contents of the portfolio have been described but the contents themselves are lacking in scope.",
+				"2": "The contents of the portfolio have been described and briefly evaluated.\nSome of the set goals have been reached.",
+				"3": "The contents of the portfolio have been described and evaluated in relation to the goals.\nThe contents are varied and in line with the theme.\nThe set goals have been reached.",
+				"4": "The contents of the portfolio have been described and evaluated in relation to the goals and the theoretical framework.\nThe portfolio extensively describes the know-how, and the strengths of the know-how have been identified.\nThe set goals have been reached, and the results of the portfolio are useful for professional development and/or the field.",
+				"5": "The contents of the portfolio have been described and evaluated critically from various angles in relation to the goals and the theoretical framework.\nThe portfolio has a distinct theme, it describes extensively the know-how, and the strengths of the know-how have been identified. The products are professionally challenging.\nThe set goals have been reached, and the portfolio is useful for professional development and/or the field. "
 			}
 		},
 		"raportointi": {
-			"name": "Raportointi ja kirjallinen esitys",
+			"name": "Reporting and written presentation",
 			"criterion": {
-				"1": "Sisältö on jäsennelty raportointiohjeen mukaisesti, mutta lukujen sisällöissä on epäjohdonmukaisuuksia.\nTeksti on osin jäsentymätöntä ja sisältää useita kielivirheitä.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta.",
-				"2": "Sisältö on jäsennelty oikein päälukuihin.\nTeksti on pääosin asiatyylistä tekstiä, jossa on kuitenkin jonkin verran tyyli- ja oikeakielisyysvirheitä.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta.",
-				"3": "Sisältö muodostaa johdonmukaisen kokonaisuuden.\nTeksti on jäsentynyttä, sujuvaa ja melko virheetöntä asiatyyliä.\nRaportti noudattaa Haaga-Helian raportointiohjetta olennaisin osin.\nLähdemerkinnät noudattavat Haaga-Helian raportointi-ohjetta.",
-				"4": "Sisältö muodostaa johdonmukaisen ja selkeän kokonaisuuden.\nTeksti on jäsentynyttä, sujuvaa ja lähes virheetöntä asiatyyliä. Tekstiä on havainnollistettu asianmukaisin kuvin ja taulukoin.\nRaportti noudattaa Haaga-Helian raportointiohjetta erittäin hyvin.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta.",
-				"5": "Sisältö muodostaa johdonmukaisen, selkeän ja tasapainoisen kokonaisuuden.\nTeksti on jäsentynyttä, analyyttista ja lähes virheetöntä asiatyyliä. Teksti osoittaa kriittistä ajattelua ja vuoropuhelua lähteiden kanssa. Tekstiä on havainnollistettu asianmukaisin kuvin ja taulukoin.\nRaportti noudattaa Haaga-Helian raportointiohjetta kiitettävästi.\nLähdemerkinnät noudattavat Haaga-Helian raportointiohjetta."
+				"1": "The content has been outlined according to the reporting instructions, but there are inconsistencies in the contents of the individual chapters.\nThe text is partly unorganized and contains several language mistakes.\nThe references follow the Haaga-Helia reporting instructions.",
+				"2": "The content has been outlined correctly into main chapters.\nThe text is mainly academic, which, however, contains stylistic and grammar mistakes.\nThe references follow the Haaga-Helia reporting instructions.",
+				"3": "The content forms a logical entity.\nThe text is structured, fluent, and written in a relatively correct academic style.\nThe report essentially follows the Haaga-Helia reporting instructions.\nThe references follow the Haaga-Helia reporting instructions.",
+				"4": "The content forms a logical and unambiguous entity.\nThe text is structured, fluent, and written in a nearly correct academic style. The text has been illustrated with appropriate figures and tables.\nThe report follows the Haaga-Helia reporting instructions very well.\nThe references follow the Haaga-Helia reporting instructions.",
+				"5": "The content forms a logical, unambiguous and balanced entity.\nThe text is structured, analytical, and written in a nearly correct academic style. The text demonstrates critical thinking and a dialogue between the sources. The text has been illustrated with appropriate figures and tables.\nThe report follows the Haaga-Helia reporting instructions with excellence.\nThe references follow the Haaga-Helia reporting instructions."
 			}
 		},
 		"projektinhallinta": {
-			"name": "Aihe, tavoite ja rajaus",
+			"name": "Project management",
 			"criterion": {
-				"1": "Opinnäytetyöprojekti on vaatinut erittäin paljon ohjausta, tai ohjausta ja palautetta ei ole hyödynnetty.\nProjektin suunnittelu on ollut ylimalkaista.\nTyön valmistuminen on viivästynyt suunnitellusta aikataulusta ilman perusteltua syytä.",
-				"2": "Opinnäytetyöprojekti on vaatinut paljon ohjausta, tai ohjausta ja palautetta on hyödynnetty vähäisesti.\nProjektin suunnittelussa on ollut jonkin verran puutteita. Työn valmistuminen on viivästynyt suunnitellusta aikataulusta jonkin verran ilman perusteltua syytä.\nOpinnäytetyöprojektin toteutusta, omaa toimintaa ja oppimista on pohdittu.",
-				"3": "Opinnäytetyöprojektissa on työskennelty sujuvasti ohjausta ja palautetta hyödyntäen.\nTyö on valmistunut lähes suunnitellussa aikataulussa, tai mahdolliset muutokset aikatauluun on tehty hallitusti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu realistisesti.",
-				"4": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely kaikkien projektiin osallistuvien kanssa on ollut rakentavaa.\nTyö on valmistunut realistisesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu rakentavasti.",
-				"5": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti, itseohjautuvasti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely ja vuoro-vaikutus kaikkien projektiin osallistuvien kanssa on ollut luontevaa ja ammattimaista.\nTyö on valmistunut realisti-sesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti ja ennakoivasti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu monipuolisesti ja kriittisesti."
+				"1": "The thesis project has demanded very much guidance, or  guidance and feedback have not been taken advantage of.\nProject planning has been vague.\nThe completion of the project has been delayed from the planned schedule without a justified reason.  ",
+				"2": "The thesis project has demanded a lot of guidance, or guidance and feedback have been taken advantage of to a minor degree.\nThere have been some shortcomings in the planning of the project.\nThe completion of the project has been somewhat delayed from the planned schedule without a justified reason.\nThe implementation of the thesis project, one’s own activities and learning have been discussed.",
+				"3": "The thesis project has been carried out seamlessly, taking advantage of guidance and feedback.\nThe thesis has been completed almost in accordance with the planned schedule, or possible changes in the schedule have been implemented in a controlled manner.\nThe implementation of the thesis project and ethical research viewpoints, one’s own activities and learning have been realistically discussed.",
+				"4": "The thesis project has been carried out seamlessly and responsibly, taking advantage of guidance and feedback.\nCooperation with all parties involved in the project has been constructive.\nThe thesis has been completed in a realistically planned schedule. Possible changes in the project have been implemented in a controlled manner.\nThe implementation of the thesis project and ethical research viewpoints, one’s own activities and learning have been constructively discussed.",
+				"5": "The thesis project has been carried out as planned, responsibly and in a self-guiding manner, taking advantage of guidance and feedback.\nCooperation and interaction with all parties involved in the project have been easy and professional.\nThe thesis has been completed in accordance with a realistically planned schedule. Possible changes in the project have been implemented in a controlled and proactive manner.\nThe implementation of the thesis project and ethical research viewpoints, one’s own activities and learning have been critically discussed from various perspectives."
 			}
 		}
 	}

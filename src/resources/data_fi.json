@@ -27,8 +27,8 @@
 			"evaluation_targets": [
 				"lahtotilanne",
 				"tietoperusta",
-				"menetelmat_tutkimus",
-				"tulokset_tutkimus",
+				"menetelmat_paivakirja",
+				"tulokset_paivakirja",
 				"raportointi",
 				"projektinhallinta"
 			]
@@ -59,8 +59,8 @@
 		"lahtotilanne": {
 			"name": "Lähtötilanne ja tavoite",
 			"criterion": {
-				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti. Tavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
-				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti. Joitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
+				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti.\nTavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
+				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti.\nJoitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
 				"3": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty.",
 				"4": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta kattavasti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty lähteitä käyttämällä.",
 				"5": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta monipuolisesti ja kriittisesti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty monipuolisesti ja kriittisesti lähteitä käyttämällä."
@@ -77,7 +77,7 @@
 			}
 		},
 		"menetelmat_tutkimus": {
-			"name": "Menetelmät",
+			"name": "Menetelmät\n(Tutkimus)",
 			"criterion": {
 				"1": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu erittäin suppeasti tai puutteellisesti.\nAineisto on suppea ja sen analysointi on puutteellista.",
 				"2": "Tutkimusmenetelmien valinta ja tutkimuksen eteneminen on kuvattu lyhyesti.\nMenetelmät sopivat osittain tutkimus-ongelman ratkaisemiseen.\nAineisto on melko suppea suhteessa tutkimusongelmaan ja analyysi on ylimalkainen.",
@@ -87,7 +87,7 @@
 			}
 		},
 		"menetelmat_toiminnallinen": {
-			"name": "Menetelmät",
+			"name": "Menetelmät\n(Toiminnallinen)",
 			"criterion": {
 				"1": "Kehittämisprojektin toteutus on kuvattu erittäin suppeasti tai puutteellisesti.",
 				"2": "Kehittämisprojekti on suunniteltu ja kuvattu lyhyesti. Kehittämisprojekti on toteutettu valittua menetelmää hyödyntäen.",
@@ -97,7 +97,7 @@
 			}
 		},
 		"menetelmat_paivakirja": {
-			"name": "Menetelmät",
+			"name": "Menetelmät\n(Päiväkirja)",
 			"criterion": {
 				"1": "Päivittäisiä työtehtäviä on kuvattu, mutta päiväkirjamerkinnät ovat suppeita tai puutteellisia.\nViikkoanalyyseissä ei ole juurikaan hyödynnetty lähteitä.",
 				"2": "Päivittäisiä työtehtäviä on kuvattu lyhyesti.\nViikkoanalyyseissä on hyödynnetty jonkin verran alan lähteitä.",
@@ -107,7 +107,7 @@
 			}
 		},
 		"menetelmat_portfolio": {
-			"name": "Menetelmät",
+			"name": "Menetelmät\n(Portfolio)",
 			"criterion": {
 				"1": "Portfolion toteutus on kuvattu erittäin suppeasti tai puutteellisesti. Valintoja ei ole juurikaan perusteltu.",
 				"2": "Portfolio on suunniteltu ja osittain perusteltu.\nPortfoliossa on johdonmukainen teema. Portfolion toteutus on kuvattu lyhyesti.",
@@ -117,7 +117,7 @@
 			}
 		},
 		"tulokset_tutkimus": {
-			"name": "Tulokset",
+			"name": "Tulokset\n(Tutkimus)",
 			"criterion": {
 				"1": "Tutkimusongelmiin on saatu joitakin vastauksia.\nYhteys tietoperustaan on puutteellinen.",
 				"2": "Tutkimusongelmiin on saatu pääosin vastaukset.\nTulosten pohdinta ja niiden yhdistäminen tietoperustaan on vähäistä.",
@@ -127,7 +127,7 @@
 			}
 		},
 		"tulokset_toiminnallinen": {
-			"name": "Tulokset",
+			"name": "Tulokset\n(Toiminnallinen)",
 			"criterion": {
 				"1": "Tuotos on kuvattu puutteellisesti ja sen hyödynnettävyyttä on pohdittu vähän.\nTuotos ei saavuta asetettuja tavoitteita.",
 				"2": "Tuotos on kuvattu lyhyesti ja sen hyödynnettävyyttä on pohdittu.\nTuotos saavuttaa osittain asetetut tavoitteet.",
@@ -137,7 +137,7 @@
 			}
 		},
 		"tulokset_paivakirja": {
-			"name": "Tulokset",
+			"name": "Tulokset\n(Päiväkirja)",
 			"criterion": {
 				"1": "Työssä on kuvattu ja arvioitu vain yksittäisiä työsuorituksia.",
 				"2": "Työssä on kuvattu ja arvioitu osaamista ja toimintatapoja irrallaan ammatillisen kasvun teemoista.",
@@ -147,10 +147,10 @@
 			}
 		},
 		"tulokset_portfolio": {
-			"name": "Tulokset",
+			"name": "Tulokset\n(Portfolio)",
 			"criterion": {
 				"1": "Portfolion sisältö on kuvattu, mutta itse sisältö on suppea.",
-				"2": "Portfolion sisältö on kuvattu ja arvioitu lyhyesti.\nOsa asetetuista tavoitteista on saavutettu. ",
+				"2": "Portfolion sisältö on kuvattu ja arvioitu lyhyesti.\nOsa asetetuista tavoitteista on saavutettu.",
 				"3": "Portfolion sisältö on kuvattu ja arvioitu suhteessa tavoitteisiin.\nSisältö on monipuolinen ja teeman mukainen.\nAsetetut tavoitteet on saavutettu.",
 				"4": "Portfolion sisältö on kuvattu ja arvioitu suhteessa tavoitteisiin ja tietoperustaan.\nPortfolio kuvaa laajasti osaamista, ja osaamisen vahvuudet on tunnistettu.\nAsetetut tavoitteet on saavutettu ja työn tuloksista on hyötyä ammatilliselle kehittymiselle ja/tai alalle.",
 				"5": "Portfolion sisältö on kuvattu ja arvioitu kriittisesti monesta näkökulmasta suhteessa tavoitteisiin ja tietoperustaan.\nPortfoliolla on selkeä teema, se kuvaa laajasti osaamista, ja osaamisen vahvuudet on tunnistettu. Tuotososuudet ovat ammatillisesti haastavia.\nAsetetut tavoitteet on saavutettu, ja työstä on perustellusti hyötyä ammatilliselle kehittymiselle ja/tai alalle."
@@ -167,10 +167,10 @@
 			}
 		},
 		"projektinhallinta": {
-			"name": "Aihe, tavoite ja rajaus",
+			"name": "Projektinhallinta",
 			"criterion": {
 				"1": "Opinnäytetyöprojekti on vaatinut erittäin paljon ohjausta, tai ohjausta ja palautetta ei ole hyödynnetty.\nProjektin suunnittelu on ollut ylimalkaista.\nTyön valmistuminen on viivästynyt suunnitellusta aikataulusta ilman perusteltua syytä.",
-				"2": "Opinnäytetyöprojekti on vaatinut paljon ohjausta, tai ohjausta ja palautetta on hyödynnetty vähäisesti.\nProjektin suunnittelussa on ollut jonkin verran puutteita. Työn valmistuminen on viivästynyt suunnitellusta aikataulusta jonkin verran ilman perusteltua syytä.\nOpinnäytetyöprojektin toteutusta, omaa toimintaa ja oppimista on pohdittu.",
+				"2": "Opinnäytetyöprojekti on vaatinut paljon ohjausta, tai ohjausta ja palautetta on hyödynnetty vähäisesti.\nProjektin suunnittelussa on ollut jonkin verran puutteita.\nTyön valmistuminen on viivästynyt suunnitellusta aikataulusta jonkin verran ilman perusteltua syytä.\nOpinnäytetyöprojektin toteutusta, omaa toimintaa ja oppimista on pohdittu.",
 				"3": "Opinnäytetyöprojektissa on työskennelty sujuvasti ohjausta ja palautetta hyödyntäen.\nTyö on valmistunut lähes suunnitellussa aikataulussa, tai mahdolliset muutokset aikatauluun on tehty hallitusti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu realistisesti.",
 				"4": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely kaikkien projektiin osallistuvien kanssa on ollut rakentavaa.\nTyö on valmistunut realistisesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu rakentavasti.",
 				"5": "Opinnäytetyöprojektissa on työskennelty suunnitelmallisesti, itseohjautuvasti ja vastuullisesti, ohjausta ja palautetta hyödyntäen.\nTyöskentely ja vuoro-vaikutus kaikkien projektiin osallistuvien kanssa on ollut luontevaa ja ammattimaista.\nTyö on valmistunut realisti-sesti suunnitellussa aikataulussa. Mahdolliset muutokset projektiin on tehty hallitusti ja ennakoivasti.\nOpinnäytetyöprojektin toteutusta ja tutkimuseettisiä näkökulmia, omaa toimintaa ja oppimista on pohdittu monipuolisesti ja kriittisesti."
