@@ -177,6 +177,7 @@
 			}
 		}
 	},
+	"lang": "fi",
 	"label": {
 		"evaluation_target": "Arviointikohde",
 		"grade": "Arvosana",

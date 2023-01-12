@@ -45,6 +45,7 @@
 			]
 		}
 	],
+	"lang": "en",
 	"label": {
 		"evaluation_target": "Assessment component",
 		"grade": "Grade",
