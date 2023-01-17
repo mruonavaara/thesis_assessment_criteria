@@ -1,18 +1,16 @@
 import '../App.css';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import SelectLanguage from './SelectLanguage';
 
-// common thesis category definitions
-import thesis_categories from "../resources/categories.json";
-
+import thesis_categories from "../resources/categories.json";  // common thesis category definitions
 const categoryKeys = Object.keys(thesis_categories);
 const categoryEvalTargets = Object.values(thesis_categories);
 
-function AssessmentCriteria(props) {
+function CriteriaTable(props) {
   const { data } = props;
   const { category_label, mark, evaluation_targets, label } = data;
 
-  const [category, setCategory] = useState(0);
+  const [category, setCategory] = useState(0);  // default to first category
 
   const FormattedCellContent = raw =>
     <>{
@@ -20,9 +18,9 @@ function AssessmentCriteria(props) {
         <p key={str}>
           {str.split('/').map(   // add <wbr> hints after slashes
             (s, i) =>
-              <>
+              <Fragment key={i}>
                 {i ? '/' : ""}<wbr />{s}
-              </>)}
+              </Fragment>)}
         </p>)
     }</>;
 
@@ -78,4 +76,4 @@ function AssessmentCriteria(props) {
   );
 }
 
-export default AssessmentCriteria;
+export default CriteriaTable;

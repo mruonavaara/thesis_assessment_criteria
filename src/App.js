@@ -1,21 +1,21 @@
 import './App.css';
 import { StrictMode } from 'react';
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import { createHashRouter, Navigate, RouterProvider } from 'react-router-dom';
 
 // language specific data
 import data_fi from "./resources/data_fi.json";
 import data_en from "./resources/data_en.json";
 
-import AssessmentCriteria from './components/AssessmentCriteria';
+import CriteriaTable from './components/CriteriaTable';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/fi",
-    element: <AssessmentCriteria data={data_fi} />
+    element: <CriteriaTable data={data_fi} />
   },
   {
     path: "/en",
-    element: <AssessmentCriteria data={data_en} />
+    element: <CriteriaTable data={data_en} />
   },
   {
     path: "/*",
