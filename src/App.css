@@ -56,18 +56,19 @@
   text-align: left;
 }
 
-.App td, .App th {
+.App td,
+.App th {
   border: 1px solid;
   border-collapse: collapse;
   border-color: black;
   padding: 0.5rem;
   hyphens: auto;
-  overflow-wrap: anywhere; 
+  overflow-wrap: anywhere;
 }
 
 .App td {
   vertical-align: top;
-  line-break:strict ;
+  line-break: strict;
 }
 
 .App td p {
@@ -79,6 +80,11 @@
   background-color: rgb(191, 241, 184);
   width: 10%;
 }
- .contentColumn {
+
+.contentColumn {
   width: 15%;
- }
+}
+
+footer {
+  font-style: italic;
+}

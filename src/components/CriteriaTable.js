@@ -8,7 +8,7 @@ const categoryEvalTargets = Object.values(thesis_categories);
 
 function CriteriaTable(props) {
   const { data } = props;
-  const { category_label, mark, evaluation_targets, label } = data;
+  const { category_label, mark, evaluation_targets, label, reference } = data;
 
   const [category, setCategory] = useState(0);  // default to first category
 
@@ -72,6 +72,9 @@ function CriteriaTable(props) {
           )}
         </tbody>
       </table>
+      <footer>
+        <p>{`${label.reference}: ${reference}`}</p>
+      </footer>
     </div>
   );
 }

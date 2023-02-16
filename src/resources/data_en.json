@@ -1,5 +1,6 @@
 {
 	"lang": "en",
+	"reference": "The UAS Bachelor’s degree thesis assessment criteria at Haaga-Helia University of Applied Sciences (14.6.2022)",
 	"category_label": {
 		"tutkimus": "Research",
 		"toiminnallinen": "Product-based",
@@ -11,7 +12,8 @@
 		"grade": "Grade",
 		"title": "UAS degree thesis assessment criteria",
 		"subtitle": "The UAS degree thesis assessment criteria at Haaga-Helia University of Applied Sciences for theses that has been started August 1, 2022 onwards",
-		"thesis_category": "Thesis category"
+		"thesis_category": "Thesis category",
+		"reference": "Reference"
 	},
 	"evaluation_targets": {
 		"aihe": {

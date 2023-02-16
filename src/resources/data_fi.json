@@ -1,5 +1,6 @@
 {
 	"lang": "fi",
+	"reference": "AMK-tutkinnon opinnäytetyön arviointikriteerit Haaga-Helia ammattikorkeakoulussa (31.5.2022)",
 	"category_label": {
 		"tutkimus": "Tutkimus",
 		"toiminnallinen": "Toiminnallinen",
@@ -11,7 +12,8 @@
 		"grade": "Arvosana",
 		"title": "AMK-opinnäytetyön arviointikriteerit",
 		"subtitle": "AMK-tutkinnon opinnäytetyön arviointikriteerit Haaga-Helia ammattikorkeakoulussa 1.8.2022 ja sen jälkeen aloitetuille opinnäytetöille",
-		"thesis_category": "Opinnäytetyön tyyppi"
+		"thesis_category": "Opinnäytetyön tyyppi",
+		"reference": "Viite"
 	},
 	"evaluation_targets": {
 		"aihe": {
