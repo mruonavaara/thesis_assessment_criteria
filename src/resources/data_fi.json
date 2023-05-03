@@ -29,8 +29,8 @@
 		"lahtotilanne": {
 			"name": "Lähtötilanne ja tavoite",
 			"criterion": {
-				"1": "Aihe on tavanomainen ja se on perusteltu pinnallisesti ja rajattu ylimalkaisesti.\nTavoitteiden/tutkimusongelmien/teemojen asettelu jää epämääräiseksi.",
-				"2": "Aihe on melko tavanomainen ja tavoitteet on perusteltu ja rajattu suppeasti.\nJoitakin konkreettisia tavoitteita/tutkimus-ongelmia/teemoja on asetettu.",
+				"1": "Lähtötilanne on kuvattu pinnallisesti ja ylimalkaisesti.\nAmmatillisen kehittymisen tavoitteiden ja teemojen asettelu jää epämääräiseksi.",
+				"2": "Lähtötilanne on kuvattu ja analysoitu suppeasti.\nJoitakin ammatillisen kehittymisen teemoja ja tavoitteita on asetettu.",
 				"3": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty.",
 				"4": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta kattavasti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty lähteitä käyttämällä.",
 				"5": "Lähtötilanne on kuvattu ja analysoitu oman työn ja osaamisen sekä vastuullisuuden kannalta monipuolisesti ja kriittisesti.\nAmmatillisen kehittymisen teemoja ja tavoitteita on perusteltu ja määritelty monipuolisesti ja kriittisesti lähteitä käyttämällä."
