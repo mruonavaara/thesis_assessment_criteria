@@ -16,6 +16,7 @@
   top: 1em;
   right: 1em;
   border: none;
+  display: flex;
 }
 
 .selectLanguage img {
