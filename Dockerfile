@@ -12,11 +12,13 @@ COPY . .
 RUN npm run build
 
 # Use an official Nginx runtime as a parent image
-FROM bitnami/nginx
+FROM nginx:1.21.0-alpine
 # Copy the nginx.conf to the container
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the React app build files to the container
 COPY --from=build /app/build /usr/share/nginx/html/
+RUN chmod -R 777 /var/log/nginx /var/cache/nginx/ \
+     && chmod 644 /etc/nginx/*
 # Expose port 80 for Nginx
 EXPOSE 80
 # Start Nginx when the container starts
