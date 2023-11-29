@@ -17,8 +17,7 @@ FROM nginx:1.21.0-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the React app build files to the container
 COPY --from=build /app/build /usr/share/nginx/html/
-RUN chmod -R 777 /var/log/nginx /var/cache/nginx/ \
-     && chmod 644 /etc/nginx/*
+RUN chown nginx:nginx /var/log/nginx /var/cache/nginx/ /etc/nginx/*
 # Expose port 80 for Nginx
 EXPOSE 80
 # Start Nginx when the container starts
