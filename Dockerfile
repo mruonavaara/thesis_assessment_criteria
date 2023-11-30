@@ -12,7 +12,7 @@ COPY . .
 RUN npm run build
 
 # Use aNginx image for OpenShift
-FROM registry.access.redhat.com/ubi8/nginx-122
+FROM nginx
 # Copy the nginx.conf to the container
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the React app build files to the container
