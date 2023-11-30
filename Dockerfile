@@ -11,13 +11,13 @@ COPY . .
 # Build the React app
 RUN npm run build
 
-# Use aNginx image for OpenShift
+# Use default Nginx image
 FROM nginx
 # Copy the nginx.conf to the container
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the React app build files to the container
 COPY --from=build /app/build /usr/share/nginx/html/
-# Expose port 80 for Nginx
-EXPOSE 80
+# Expose port 8080 for Nginx
+EXPOSE 8080
 # Start Nginx when the container starts
 CMD ["nginx", "-g", "daemon off;"]
