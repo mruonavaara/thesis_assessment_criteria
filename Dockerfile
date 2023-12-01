@@ -18,7 +18,8 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the React app build files to the container
 COPY --from=build /app/build /usr/share/nginx/html/
 # Give access right to group
-RUN chmod g+rw -R /etc/nginx /usr/share/nginx
+RUN chmod g+rw -R /etc/nginx
+RUN chmod g+rw -R /usr/share/nginx
 # Expose port 8080 for Nginx
 EXPOSE 8080
 # Start Nginx when the container starts
