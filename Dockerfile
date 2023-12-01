@@ -14,9 +14,10 @@ RUN npm run build
 # Use default Nginx image
 FROM nginx
 # Copy the nginx.conf to the container
-COPY --chmod=g+rw  nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the React app build files to the container
-COPY --from=build --chmod=g+rw /app/build /usr/share/nginx/html/
+COPY --from=build /app/build /usr/share/nginx/html/
+RUN chmod -R g+rw /etc/nginx/conf.d /usr/share/nginx/html/
 # Expose port 8080 for Nginx
 EXPOSE 8080
 # Start Nginx when the container starts
