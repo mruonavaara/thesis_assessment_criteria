@@ -22,7 +22,7 @@ RUN chmod g+rwx /var/cache/nginx /var/run /var/log/nginx && \
     sed -i.bak 's/^user/#user/' /etc/nginx/nginx.conf
 
 COPY --from=build /app/build /usr/share/nginx/html/
-COPY --from=build /app/vite /usr/share/nginx/html/
+COPY --from=build /app/dist /usr/share/nginx/html/
 WORKDIR /usr/share/nginx/html/
 EXPOSE 8080
 USER nginx:root
