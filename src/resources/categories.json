@@ -1,34 +1,34 @@
 {
-    "tutkimus": [
-      "aihe",
-      "tietoperusta",
-      "menetelmat_tutkimus",
-      "tulokset_tutkimus",
-      "raportointi",
-      "projektinhallinta"
+    "research": [
+      "topic",
+      "framework",
+      "methods_research",
+      "results_research",
+      "reporting",
+      "project_management"
     ],
-    "toiminnallinen": [
-      "aihe",
-      "tietoperusta",
-      "menetelmat_toiminnallinen",
-      "tulokset_toiminnallinen",
-      "raportointi",
-      "projektinhallinta"
+    "product": [
+      "topic",
+      "framework",
+      "methods_product",
+      "results_product",
+      "reporting",
+      "project_management"
     ],
-    "paivakirja": [
-      "lahtotilanne",
-      "tietoperusta",
-      "menetelmat_paivakirja",
-      "tulokset_paivakirja",
-      "raportointi",
-      "projektinhallinta"
+    "diary": [
+      "starting_point",
+      "framework",
+      "methods_diary",
+      "results_diary",
+      "reporting",
+      "project_management"
     ],
     "portfolio": [
-      "aihe",
-      "tietoperusta",
-      "menetelmat_portfolio",
-      "tulokset_portfolio",
-      "raportointi",
-      "projektinhallinta"
+      "topic",
+      "framework",
+      "methods_portfolio",
+      "results_portfolio",
+      "reporting",
+      "project_management"
     ]
   }

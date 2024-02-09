@@ -2,9 +2,9 @@
 	"lang": "en",
 	"reference": "The UAS Bachelor’s degree thesis assessment criteria at Haaga-Helia University of Applied Sciences (14.6.2022)",
 	"category_label": {
-		"tutkimus": "Research",
-		"toiminnallinen": "Product-based",
-		"paivakirja": "Diary-based",
+		"research": "Research",
+		"product": "Product-based",
+		"diary": "Diary-based",
 		"portfolio": "Portfolio"
 	},
 	"label": {
@@ -16,7 +16,7 @@
 		"reference": "Reference"
 	},
 	"evaluation_targets": {
-		"aihe": {
+		"topic": {
 			"name": "Topic, objective and demarcation",
 			"criterion": {
 				"1": "The topic is ordinary, and it has been superficially justified and vaguely defined.\nObjectives/research question and investigative questions/themes undefined.",
@@ -26,7 +26,7 @@
 				"5": "The topic is current and it provides some new information for the commissioning organization or the field. The topic has been justified and defined from the perspective of sustainability of the commissioning organization or the field.\nThe objectives/research question and investigative questions/themes have been justified from various perspectives and with critique."
 			}
 		},
-		"lahtotilanne": {
+		"starting_point": {
 			"name": "Starting point and objective",
 			"criterion": {
 				"1": "The starting point has been superficially and vaguely described.\nSetting the objectives and themes of professional development remains obscure.",
@@ -36,7 +36,7 @@
 				"5": "The starting point has been described from various perspectives and analysed with critique based on one’s own work, know-how and sustainability.\nObjectives and themes of professional development have been defined from various perspectives and justified with critique by using sources."
 			}
 		},
-		"tietoperusta": {
+		"framework": {
 			"name": "Theoretical framework",
 			"criterion": {
 				"1": "With regard to the theoretical framework, the topic is narrow and consists of sources chosen without critique.\nConcepts have been defined superficially and they form a theoretical framework that is haphazard or not justified.",
@@ -46,7 +46,7 @@
 				"5": "Recent research and specialist knowledge has been used analytically in the theoretical framework.\nThe theoretical framework and concepts form a coherent, comprehensive entity supporting the topic and creating new connections. Information acquired from different sources has been successfully combined, and the relations between pieces of information have been demonstrated.\nSources have been critiqued in the theoretical framework from various perspectives."
 			}
 		},
-		"menetelmat_tutkimus": {
+		"methods_research": {
 			"name": "Methods\n(Research)",
 			"criterion": {
 				"1": "Selection of the research methods and the progression of the thesis have been very briefly or inadequately described.\nData is limited and its analysis is insufficient.",
@@ -56,7 +56,7 @@
 				"5": "Literature on methodology has been used in selecting, justifying and applying the research methods, with consideration of different options.\nThe progression of the study has been described in phases, clearly and concisely.\nThe data has been collected carefully, and it is extensive and of high quality.\nThe method of analysis has been clearly described, and it has been competently, analytically and correctly applied."
 			}
 		},
-		"menetelmat_toiminnallinen": {
+		"methods_product": {
 			"name": "Methods\n(Product-based)",
 			"criterion": {
 				"1": "The implementation of the development project has been described very briefly and insufficiently.",
@@ -66,7 +66,7 @@
 				"5": "In all the phases of the development project, sources have been used with critique. The methods chosen have been justified with the help of the sources.\nAlternative ways of implementing the development project have been considered.\nThe progression of the development project has been described in detail and clearly. Feedback from the commissioning organisation/external feedback has been utilized from various perspectives in the project.\nThe methods chosen have been applied appropriately and with great skill."
 			}
 		},
-		"menetelmat_paivakirja": {
+		"methods_diary": {
 			"name": "Methods\n(Diary-based)",
 			"criterion": {
 				"1": "Daily duties have been described but the diary entries are brief or insufficient.\nSources have not been utilized in the weekly analyses.",
@@ -76,7 +76,7 @@
 				"5": "Daily duties have been evaluated well in relation to the professional objectives and selected themes. Justified development areas have been identified in the daily duties.\nThe weekly analyses are logical, forming a balanced entity, and various sources have been used to develop one’s know-how."
 			}
 		},
-		"menetelmat_portfolio": {
+		"methods_portfolio": {
 			"name": "Methods\n(Portfolio)",
 			"criterion": {
 				"1": "The execution of the portfolio has been very briefly or insufficiently described. The choices made have not been sufficiently justified.",
@@ -86,7 +86,7 @@
 				"5": "The portfolio has been planned using sources and setting objective(s), considering alternatives.\nThe choices related to the portfolio have been justified well.\nThe execution of the portfolio has been comprehensively and appropriately described."
 			}
 		},
-		"tulokset_tutkimus": {
+		"results_research": {
 			"name": "Results\n(Research)",
 			"criterion": {
 				"1": "Some answers have been found to the research question.\nThe connection to the theoretical framework is insufficient.",
@@ -96,7 +96,7 @@
 				"5": "The results and conclusions are relevant and justified in relation to the research question/investigative questions, and their application in practice has been credibly and justified from various perspectives.\nThe key results have been reflected upon in relation to the theoretical framework and from different angles.\nThe reliability and relevance of the results have been discussed with critique from various perspectives. "
 			}
 		},
-		"tulokset_toiminnallinen": {
+		"results_product": {
 			"name": "Results\n(Product-based)",
 			"criterion": {
 				"1": "The product has been inadequately described and its usefulness has been minimally discussed.\nThe product does not reach the set goals.",
@@ -106,7 +106,7 @@
 				"5": "The product/the public part of the product has been described from various perspectives, and its quality and wider applicability have been evaluated credibly and critically from different angles."
 			}
 		},
-		"tulokset_paivakirja": {
+		"results_diary": {
 			"name": "Results\n(Diary-based)",
 			"criterion": {
 				"1": "Only individual work tasks have been described and evaluated in the diary.",
@@ -116,7 +116,7 @@
 				"5": "In the diary, know-how and work methods have been described and evaluated, and alternative solutions are presented for the selected themes of professional growth.\nThe diary has produced new ideas or approaches from a development perspective of one’s own work or work community."
 			}
 		},
-		"tulokset_portfolio": {
+		"results_portfolio": {
 			"name": "Results\n(Portfolio)",
 			"criterion": {
 				"1": "The contents of the portfolio have been described but the contents themselves are lacking in scope.",
@@ -126,7 +126,7 @@
 				"5": "The contents of the portfolio have been described and evaluated critically from various angles in relation to the goals and the theoretical framework.\nThe portfolio has a distinct theme, it describes extensively the know-how, and the strengths of the know-how have been identified. The products are professionally challenging.\nThe set goals have been reached, and the portfolio is useful for professional development and/or the field. "
 			}
 		},
-		"raportointi": {
+		"reporting": {
 			"name": "Reporting and written presentation",
 			"criterion": {
 				"1": "The content has been outlined according to the reporting instructions, but there are inconsistencies in the contents of the individual chapters.\nThe text is partly unorganized and contains several language mistakes.\nThe references follow the Haaga-Helia reporting instructions.",
@@ -136,7 +136,7 @@
 				"5": "The content forms a logical, unambiguous and balanced entity.\nThe text is structured, analytical, and written in a nearly correct academic style. The text demonstrates critical thinking and a dialogue between the sources. The text has been illustrated with appropriate figures and tables.\nThe report follows the Haaga-Helia reporting instructions with excellence.\nThe references follow the Haaga-Helia reporting instructions."
 			}
 		},
-		"projektinhallinta": {
+		"project_management": {
 			"name": "Project management",
 			"criterion": {
 				"1": "The thesis project has demanded very much guidance, or  guidance and feedback have not been taken advantage of.\nProject planning has been vague.\nThe completion of the project has been delayed from the planned schedule without a justified reason.  ",
