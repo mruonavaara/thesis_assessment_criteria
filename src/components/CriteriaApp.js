@@ -26,7 +26,7 @@ function CriteriaApp(props) {
 
   return (
     <div className="App">
-      <SelectLanguage />
+      <SelectLanguage lang={data.lang} />
       <header>
         <div className='titleBlock'>
           <h1>
