@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   margin: 1em;
+  display: flex;
+  flex-direction: column;
 }
 
 .App h1 {
@@ -9,21 +11,27 @@
 
 .App h2 {
   font-size: 1.3rem;
+  margin: 1rem 0;
 }
 
-.selectLanguage {
+.LanguageMenu {
   position: absolute;
   top: 1em;
   right: 1em;
   border: none;
   display: flex;
+  gap: 0.5em;
 }
 
-.selectLanguage img {
-  height: 1em;
-  width: 2em;
+.LanguageMenu a {
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+  padding: 0.5rem 0.5rem;
 }
-
 
 .selectType {
   font-size: inherit;
@@ -67,6 +75,32 @@
   overflow-wrap: anywhere;
 }
 
+.CategoryMenu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.CategoryMenu a {
+  height: 1.5rem;
+	font-size: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.CategoryMenu a.active {
+  border-bottom: 1px solid black;
+}
+
+a:hover {
+  color: white;
+  background-color: rgb(0, 85, 137);
+}
+
 .App td {
   vertical-align: top;
   line-break: strict;
@@ -88,4 +122,11 @@
 
 footer {
   font-style: italic;
+}
+
+.ErrorElement {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
 }
